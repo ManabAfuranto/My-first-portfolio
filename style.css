@@ -8,9 +8,15 @@
   font-optical-sizing: auto;
 }
 header{
-    background-color: blanchedalmond;
-    padding-top: 50px;
+    background-color: #FFF8F3;
+    padding-top: 40px;
+    background: url(images/developer.png), url(images/header_bg.png), #FFF8F3;
+    background-repeat: no-repeat;
+    background-position: left top, right bottom;
 }
+
+/*nav starts here*/
+
 nav{
     width: 70%;
     max-width: 1140px;
@@ -38,12 +44,52 @@ nav .link a{
     color: #474747;
     font-size: 18pxpx;
 }
+
+/*nav ends here*/
+
+/*banner starts here*/
+
+#banner{
+    margin: 40px 38px 0px 170px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#banner .banner-content{
+    max-width: 600px;
+}
+#banner .banner-content h2{
+    font-size: 20px;
+    font-weight: 600;
+    color: #474747;
+    margin-bottom: 5px;
+}
+#banner .banner-content h1{
+    font-size: 40px;
+    font-weight: bold;
+    color: #181818;
+    margin-bottom: 20px;
+}
+#banner .banner-content p{
+    font-size: 15px;
+    color: #757575;
+    margin-bottom: 30px;
+    line-height: 30px;
+}
+#banner .banner-img img{
+    max-width: 550px;
+    height: 500px;
+    vertical-align: middle;
+}
+/*banner ends here*/
+
 .btn{
     background-color: #FD6E0A;
     border: none;
-    padding: 18px 32px;
-    font-size: 18px;
+    padding: 15px 25px;
+    font-size: 15px;
     border-radius: 5px;
     font-weight: bold;
     color: white;
+    cursor: pointer;
 }
