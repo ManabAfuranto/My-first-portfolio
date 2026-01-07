@@ -19,7 +19,7 @@ header{
 
 nav{
     width: 70%;
-    max-width: 1140px;
+    max-width: 1120px;
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
@@ -93,3 +93,40 @@ nav .link a{
     color: white;
     cursor: pointer;
 }
+
+/*about starts here*/
+
+#about{
+    padding: 50px;
+}
+#about .about-content{
+    width:80%;
+    max-width: 1120px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #FFF8F3;
+    padding: 50px 80px;
+    border-radius: 10px;
+}
+.about-content .about-heading h2{
+    margin-bottom: 25px;
+}
+.about-content .about-heading p{
+    margin-bottom: 25px;
+    font-size: 15px;
+    line-height: 30px;
+    color: #757575;
+}
+#about .about-content .about-info{
+    display: flex;
+    justify-content: space-between;
+}
+.about-info .info-card p{
+    font-size: 15px;
+    color: #757575;
+    line-height: 25px;
+}
+.about-info .info-card h4{
+    font-size: 15px;
+}
+/*about ends here*/
