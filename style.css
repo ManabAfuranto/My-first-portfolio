@@ -9,4 +9,41 @@
 }
 header{
     background-color: blanchedalmond;
+    padding-top: 50px;
+}
+nav{
+    width: 70%;
+    max-width: 1140px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    align-items: center;
+
+}
+nav .logo{
+    font-size: 40px;
+    font-weight: bold;
+}
+nav .color{
+    color: orange;
+}
+nav .link{
+    display: flex;
+    gap:50px;
+    list-style: none;
+    align-items: center;
+}
+nav .link a{
+    text-decoration: none;
+    color: #474747;
+    font-size: 18pxpx;
+}
+.btn{
+    background-color: #FD6E0A;
+    border: none;
+    padding: 18px 32px;
+    font-size: 18px;
+    border-radius: 5px;
+    font-weight: bold;
+    color: white;
 }
