@@ -130,3 +130,56 @@ nav .link a{
     font-size: 15px;
 }
 /*about ends here*/
+
+/* skill starts here*/
+
+#skill{
+    margin-top: 50px;
+}
+#skill .skill-content{
+    width:75%;
+    max-width: 1120px;
+    margin: 0 auto;
+}
+#skill .skill-content .skill-heading{
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: center;
+}
+#skill .skill-content .skill-heading h2{
+    margin-bottom: 25px;
+    font-weight: bold
+}
+#skill .skill-content .skill-heading p{
+    font-size: 15px;
+    color: #757575;
+    line-height: 25px;
+    margin-bottom: 40px;
+}
+.skill-boxs{
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+}
+.skill-boxs .skill-card{
+    background-color: #FFF8F3;
+    padding: 15px;
+    max-width: 200px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px #FFF8F3
+}
+.skill-boxs .skill-card img{
+    margin-bottom: 20px;
+    height: 30px;
+}
+.skill-boxs .skill-card h3{
+    margin-bottom: 20px;
+    font-size: 17px;
+    color: #181818;
+}
+.skill-boxs .skill-card p{
+    font-size: 12px;
+    color: #757575;
+    line-height: 20px;
+}
+/*skill ends here*/
