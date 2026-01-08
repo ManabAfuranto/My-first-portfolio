@@ -183,3 +183,31 @@ nav .link a{
     line-height: 20px;
 }
 /*skill ends here*/
+
+/*resume starts here*/
+   
+ #resume .resume-heading h2{
+    padding-top: 70px; 
+    text-align: center;
+
+}
+#resume .resume-content{
+    width: 70%;
+    max-width: 1120px;
+    margin: 50px auto 0px;
+    display: flex;
+    gap: 20px;
+}
+#resume .resume-content .resume-title{
+    font-size: 15px;
+    margin-bottom: 18px;
+}
+.resume-card p{
+    font-size: 12px;
+    color: #757575;
+    margin: 20px 0px 20px;
+}
+.resume-card h5{
+    margin-top: 20px;
+}
+/*resume ends here*/
